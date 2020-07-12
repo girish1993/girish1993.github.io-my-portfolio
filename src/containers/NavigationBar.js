@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import MenuItem from './MenuItem';
+import MenuItem from '../components/MenuItem';
 
 
 function NavigationBar() { 
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
-            <div style = {{float:"left", width:"70%"}}>
+            <div className="flex" style = {{float:"left", width:"70%"}}>
                 <Navbar.Brand style={{fontSize:"23px"}}href="#home">Girish Bhatta</Navbar.Brand>
             </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
