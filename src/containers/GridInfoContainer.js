@@ -21,8 +21,10 @@ const GridInfoContainer = () => {
     return (
         <div className = {classes.root} style = {{marginTop:"30px"}}>
             <Grid container spacing={3}>
-                <GridContentItem gridContent = {{content:"Block1", className: classes.paper}}/>
-                <GridContentItem gridContent = {{content:"Block2", className: classes.paper}}/>
+                <GridContentItem gridContent = {{contentType:"image", url:"../assets/images/profile_pic.png", 
+                                  className: classes.paper, alt:"Profile Picture for the Portfolio"}}/>
+                <GridContentItem gridContent = {{contentType:"text", text:"About Description to be put here" ,
+                                  className: classes.paper}}/>
             </Grid>
         </div>
     );
