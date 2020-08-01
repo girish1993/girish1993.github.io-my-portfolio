@@ -6,13 +6,13 @@ import GridContentItem from '../components/GridContentItem';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    height: "500px"
+    height: "80vh"
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    height:'500px'
+    height:'80vh'
   },
 }));
 
